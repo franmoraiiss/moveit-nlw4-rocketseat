@@ -1,0 +1,39 @@
+.sidenav {
+   height: 100%;
+   width: 112px;
+   position: fixed;
+
+   background-color: #fff;
+   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+}
+
+.sidenav div {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.sidenav div .sidenavLogo {
+   padding: 1.5rem 0;
+}
+
+.sidenav ul {
+   height: 85%;
+
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.sidenav ul li {
+   display: flex;
+   justify-content: center;
+
+   margin: 0.5rem 0;
+   padding: 1rem 0;
+}
+
+.sidenav ul li.active {
+   border-left: 4px solid var(--blue);
+}
